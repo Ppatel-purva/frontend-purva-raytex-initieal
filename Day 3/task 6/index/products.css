@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #640606;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.navlink {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navAnchor {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.logo {
+    margin-right: 70px;
+}
+
+.navLOGO {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container{
+    height: 600px;
+    color: #d3cdcd
+}
+.card {
+    
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin:30px;
+  }
+  
+  .price {
+    color: rgb(14, 1, 1);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(255, 251, 251);
+    background-color:#640606;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+
+  .footer {
+    background-color: #380303;
+    padding-bottom: 40px;
+    height: 300px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
+.fbtext{
+color: white;
+font-family: sans-serif;
+    
+}

@@ -2,7 +2,7 @@ function ageCalculator() {
     var userinput = document.getElementById("DOB").value;  
     var dob = new Date(userinput);  
     if(userinput==null || userinput=='') {  
-     
+      
       return false;   
     } else {   
     var month_diff = Date.now() - dob.getTime();  
