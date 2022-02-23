@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.coffee-nav{
+	float: right;
+	height: 100%;
+}
+ 
 .navbar {
     background-color: #640606;
     padding: 10px;
@@ -18,8 +23,11 @@
 .navAnchor {
     color: white;
     text-decoration: none;
-    padding: 8px;
-    font-size: 15px;
+    font-size: 20px;
+    float:right;
+    margin: 10px;
+
+   
 }
 
 .logo {
@@ -31,53 +39,31 @@
     font-weight: bold;
 }
 .container{
-    height: 600px;
-    color: #d3cdcd
+    height: 500px;
+    color: #d3cdcd;
+
 }
+
 .card {
     
     max-width: 300px;
     text-align: center;
     font-family: arial;
     float: left;
-    margin:30px;
+    margin:10px;
+    
   }
   
-  .price {
-    color: rgb(14, 1, 1);
-    font-size: 22px;
+  h5{
+    color: black;  
   }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: rgb(255, 251, 251);
-    background-color:#640606;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
+  h6{
+      color: black;
   }
 
 
 
   .footer {
     background-color: #380303;
-    padding-bottom: 40px;
     height: 300px;
-}
-
-.copyright{
-    text-align: center;
-    color: white;
-}
-.fbtext{
-color: white;
-font-family: sans-serif;
-    
 }
